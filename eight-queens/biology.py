@@ -3,27 +3,14 @@ from queens import ChessBoard
 from crossover import Crossover
 from individual import Individual
 
-def will_mutate(probability):
+def should_event_happen(probability):
   """
-    Returns True or False - whether the mutation
-    will occur, according to a given
-    probability of it occurring or not.
-    
-    Example: if the given probability is 0.4 (40%), the
-    mutation will occur if a randomly chosen float is
-    less than or equal to 0.4.
-  """
-  return np.random.rand() < probability
+    Returns true or false - whether an event
+    should happen or not, given the probability
+    of its occurrence.
 
-def will_recombine(probability):
-  """
-    Returns True or False - whether the recombination
-    will occur, according to a given
-    probability of it occurring or not.
-    
-    Example: if the given probability is 0.4 (40%), the
-    recombination will occur if a randomly chosen float is
-    less than or equal to 0.4.
+    This is mainly used to define when mutations
+    and recombinations will occur.
   """
   return np.random.rand() < probability
 
@@ -31,7 +18,7 @@ def generate_child(parent_a, parent_b, mutation_probability):
   child_chromosome = Crossover.cut_and_crossfill(parent_a.chromosome, parent_b.chromosome)
   child = Individual(chromosome = child_chromosome)
   
-  if will_mutate(mutation_probability):
+  if should_event_happen(mutation_probability):
     child.mutate()
 
   return child
@@ -40,7 +27,7 @@ def generate_offspring(parent_a, parent_b, recombination_probability, mutation_p
   # In case recombination does not occur, parents will reproduce themselves.
   children = [parent_a, parent_b]
 
-  if will_recombine(recombination_probability):
+  if should_event_happen(recombination_probability):
     child_a = generate_child(parent_a, parent_b, mutation_probability)
     child_b = generate_child(parent_b, parent_a, mutation_probability)
     children = [child_a, child_b]
