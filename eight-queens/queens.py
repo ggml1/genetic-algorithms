@@ -27,6 +27,10 @@ class ChessBoard:
         if ChessBoard.queens_collide(queen_a, queen_b):
           collisions += 1
 
+    # Since collisions are counted twice for each pair,
+    # dividing by two normalizes this result.
+    collisions = collisions // 2
+
     return collisions
 
   @staticmethod
@@ -41,7 +45,7 @@ class ChessBoard:
            abs(queen_a.row - queen_b.row) == abs(queen_a.column - queen_b.column)
 
   @staticmethod
-  def coordinate_to_chess_notation(row, column):
+  def coordinate_to_chess_notation(row, column, number_of_queens):
     column_identifier = chr(ord('a') + column)
-    row_identifier = chr(ord('8') - row)
+    row_identifier = str(number_of_queens - row)
     return column_identifier + row_identifier 

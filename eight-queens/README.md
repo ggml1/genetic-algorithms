@@ -21,6 +21,7 @@ The model has the following attributes:
 Some attributes can be changed using environment variables:
 
 - `NUMBER_OF_QUEENS` the `n` of our problem. Defaults to `8`.
+- `NUMBER_OF_SAMPLE_PARENTS` the number of individuals randomly chosen. From those, the two with highest fitness will be the parents of their iteration. Defaults to `5`.
 - `POPULATION_SIZE` the population size used. Defaults to `100`.
 - `RECOMBINATION_PROBABILITY` how often recombinations occur in the reproduction step. Defaults to `0.9 (90%)`.
 - `MUTATION_PROBABILITY` how often mutations occur during reproduction. Defaults to `0.4 (40%)`
@@ -45,4 +46,4 @@ Where `C(S)` is the total number of collisions considering all pairs of queens o
 You can use `pipenv` to run the project as follows:
 
 - Run `pipenv install` to download dependencies
-- Run `pipenv python3 main.py` to run the project
+- Run `pipenv run python3 main.py` to run the project
