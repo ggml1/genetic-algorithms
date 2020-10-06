@@ -10,6 +10,9 @@ class BoardPosition:
   def __ne__(self, other):
     return not self.__eq__(other)
 
+  def __repr__(self):
+      return f'Position ({self.row}, {self.column})'
+
 class ChessBoard:
   def __init__(self, queens_placement):
     self.queen_positions = []
@@ -18,7 +21,7 @@ class ChessBoard:
 
   def get_number_of_collisions(self):
     collisions = 0
-    
+
     for queen_a in self.queen_positions:
       for queen_b in self.queen_positions:
         if queen_a == queen_b:
@@ -48,4 +51,4 @@ class ChessBoard:
   def coordinate_to_chess_notation(row, column, number_of_queens):
     column_identifier = chr(ord('a') + column)
     row_identifier = str(number_of_queens - row)
-    return column_identifier + row_identifier 
+    return column_identifier + row_identifier

@@ -15,7 +15,7 @@ class Individual(ChessBoard):
     """
     if chromosome is None and chromosome_length is None:
       raise Exception('Failed to initialize an individual. One of chromosome and chromosome_length must be passed to the class constructor.')
-    
+
     if chromosome is None:
       chromosome = Individual.generate_random_chromosome(chromosome_length)
 
@@ -31,10 +31,14 @@ class Individual(ChessBoard):
       generated one.
     """
     chromosome_length = len(self.chromosome)
-    new_gene = np.random.randint(0, chromosome_length)
-    new_gene_position = np.random.randint(0, chromosome_length)
-    self.chromosome[new_gene_position] = new_gene
-    
+    position_a = np.random.randint(0, chromosome_length)
+    position_b = np.random.randint(0, chromosome_length)
+
+    # Swap genes
+    aux = self.chromosome[position_a]
+    self.chromosome[position_a] = self.chromosome[position_b]
+    self.chromosome[position_b] = aux
+
   def fitness_function(self):
     """
       This function calculates the fitness of
@@ -48,10 +52,10 @@ class Individual(ChessBoard):
         individual's placement of queens.
     """
     return -1 * self.get_number_of_collisions() # Fewer collisions should represent higher fitness
-  
+
   def __lt__(self, other):
     return self.fitness < other.fitness
-  
+
   def __eq__(self, other):
     return self.fitness == other.fitness
 

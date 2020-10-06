@@ -14,7 +14,7 @@ def initialize(number_of_queens,
   iteration_count = 0
 
   while not stop_algorithm(population, iteration_count, max_fitness_evaluations):
-    population = genetic_algorithm(population, 
+    population = genetic_algorithm(population,
                                    recombination_probability,
                                    mutation_probability,
                                    number_of_sample_parents)
@@ -42,7 +42,7 @@ if __name__ == '__main__':
   max_fitness_evaluations = os.getenv('MAX_FITNESS_EVALUATIONS', 10000)
 
   initialize(number_of_queens,
-             population_size, 
+             population_size,
              number_of_sample_parents,
              recombination_probability,
              mutation_probability,
