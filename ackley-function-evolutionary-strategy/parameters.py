@@ -1,11 +1,11 @@
 params = {
   # n parameter of the ackley function. Also used for inidividual chromosome definition. [1 - inf]
-  "ACK_N": 30
+  "ACK_N": 30,
   # Max amout of allowed iterations [1 - inf]
   "ITR_AMT": 10000,
   # Higher and lower bounds for chromosome initialization. [-inf - +inf]
   "LWR_BND": -15,
-  "UPR_BND": 15
+  "UPR_BND": 15,
   # Population Size [1 - inf]
   "POP_SIZE": 150,
   # Parent couples selected from the population per iteration [1 - POP_SIZE/2]
@@ -21,7 +21,7 @@ params = {
   # Mutation Probability [0.0 - 1.0]
   "MUT_PRB": 0.7,
   # Mutation Type [UNCORRELATED_SINGLE, UNCORRELATED_MANY]
-  "MUT_TYP": "UNCORRELATED_SINGLE"
+  "MUT_TYP": "UNCORRELATED_SINGLE",
   # Survival Strategy [REPLACE_PARENTS, BEST_FIT]
   "SRV_STR": "REPLACE_PARENTS" 
 }
