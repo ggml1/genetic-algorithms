@@ -12,11 +12,11 @@ class Individual:
     self.sigma = sigma
     self._fitness = None
 
-  def fitness(self):
+  def fitness(self, f = ackley_function):
     if (self._fitness is not None):
       return self._fitness
 
-    self._fitness = abs(ackley_function(self.fenotype))
+    self._fitness = f(self.fenotype)
     return self._fitness
 
   def mutate(self, mutation_type = CFG["MUT_TYP"]):
