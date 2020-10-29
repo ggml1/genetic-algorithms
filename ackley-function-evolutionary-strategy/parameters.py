@@ -19,9 +19,9 @@ params = {
   # Floor of mutation step [0.0 - 1.0]
   "EPS_ZRO": 0.000001,
   # Mutation Probability [0.0 - 1.0]
-  "MUT_PRB": 0.7,
+  "MUT_PRB": 0.90,
   # Mutation Type [UNCORRELATED_SINGLE, UNCORRELATED_MANY]
   "MUT_TYP": "UNCORRELATED_SINGLE",
   # Survival Strategy [REPLACE_PARENTS, BEST_FIT]
-  "SRV_STR": "REPLACE_PARENTS" 
+  "SRV_STR": "BEST_FIT" 
 }
