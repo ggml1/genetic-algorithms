@@ -1,9 +1,10 @@
-from ackley import ACKLEY_N, ackley_function
+from ackley import ackley_function
 from utils import generate_random_double_array
 from mutate import uncorrelated_mutation, uncorrelated_mutation_n_steps
+from parameters import params as CFG
 
 class Individual:
-  def __init__(self, fenotype = None, sigma = [1] * ACKLEY_N, length = ACKLEY_N):
+  def __init__(self, fenotype = None, sigma = [CFG["MUT_STP"]] * CFG["ACK_N"], length = CFG["ACK_N"]):
     if (fenotype is None):
       fenotype = generate_random_double_array(length)
     
@@ -18,12 +19,12 @@ class Individual:
     self._fitness = abs(ackley_function(self.fenotype))
     return self._fitness
 
-  def mutate(self, mutation_function = uncorrelated_mutation):
+  def mutate(self, mutation_type = CFG["MUT_TYP"]):
     self._fitness = None
-    if mutation_function == uncorrelated_mutation:
-      self.fenotype, self.sigma[0] = mutation_function(self.fenotype, self.sigma[0])
-    elif mutation_function == uncorrelated_mutation_n_steps:
-      self.fenotype, self.sigma = mutation_function(self.fenotype, self.sigma)
+    if mutation_type == "UNCORRELATED_SINGLE":
+      self.fenotype, self.sigma[0] = uncorrelated_mutation(self.fenotype, self.sigma[0])
+    elif mutation_type == "UNCORRELATED_MANY":
+      self.fenotype, self.sigma = uncorrelated_mutation_n_steps(self.fenotype, self.sigma)
 
   def __repr__(self):
     return str(self.fenotype)

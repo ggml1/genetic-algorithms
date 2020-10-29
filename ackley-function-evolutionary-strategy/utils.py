@@ -1,6 +1,7 @@
 import numpy as np
+from parameters import params as CFG
 
-def generate_random_double_array(length, lower_bound = -15, upper_bound = 15):
+def generate_random_double_array(length, lower_bound = CFG["LWR_BND"], upper_bound = CFG["UPR_BND"]):
   return np.random.uniform(low = lower_bound, high = upper_bound, size = (length,))
 
 def normal_distribution(mean, standard_deviation, length = 1):

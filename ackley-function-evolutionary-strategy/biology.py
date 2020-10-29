@@ -1,9 +1,9 @@
 from individual import Individual
 from utils import should_event_happen, gen_random_permutation
 from recombination import recombination
+from parameters import params as CFG
 
 NUMBER_OF_PARENTS = 2
-MUTATION_PROBABILITY = 0.5
 
 def generate_population(population_size):
   return [ Individual() ] * population_size
@@ -26,13 +26,16 @@ def generate_offspring(parents):
   child_fenotype = recombination(parent_a, parent_b, recombination_type = 'INTERMEDIATE')
   child = Individual(fenotype = child_fenotype)
   
-  if (should_event_happen(MUTATION_PROBABILITY)):
+  if (should_event_happen(CFG["MUT_PRB"])):
     child.mutate()
   
   return child
 
-def kill_suckers(population, population_size):
-  # Kills the weakest among the population fitness-wise.
-  # The number of removed individuals is equal to the
-  # number of generated offspring.
-  return sorted(population)[-population_size:]
+def kill_suckers(population, children, population_size, survival_strategy = "REPLACE_PARENTS"):
+  if survival_strategy == "REPLACE_PARENTS":
+    # Choose the best children and completely OBLITERATE the parents.
+    return sorted(children)[-population_size:]
+  elif survival_strategy == "BEST_FIT":
+    # Rank all Individuals (parents + children) and Kills the weakest among them,
+    # fitness-wise.
+    return sorted(population + children)[-population_size:]
