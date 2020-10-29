@@ -3,7 +3,10 @@ from utils import population_average_fitness, population_best_fitness, populatio
 import matplotlib.pyplot as plt
 from parameters import params as CFG
 
-def main(number_of_iterations = CFG["ITR_AMT"], population_size = CFG["POP_SIZE"], parent_couples_per_iteration = CFG["PRT_CPL"], children_amount_per_parent_pair= CFG["CHL_PPR"]):
+def main(number_of_iterations = CFG["ITR_AMT"],
+         population_size = CFG["POP_SIZE"],
+         parent_couples_per_iteration = CFG["PRT_CPL"],
+         children_amount_per_parent_pair= CFG["CHL_PPR"]):
   population = generate_population(population_size)
   
   for iteration in range(number_of_iterations):
@@ -14,13 +17,13 @@ def main(number_of_iterations = CFG["ITR_AMT"], population_size = CFG["POP_SIZE"
 
     children = []
     for i in range(parent_couples_per_iteration):
-      parents = local_parents_selection(population)
+      parents = select_parents(population)
       for i in range(children_amount_per_parent_pair):
         child = generate_offspring(parents)
         children.append(child)
         # print("GENERATED CHILD: {}".format(str(child)))
         
-    population = kill_suckers(population, children, population_size, CFG["SRV_STR"])
+    population = kill_suckers(population, children, population_size)
   
   #plt.ioff(); plt.show()
 

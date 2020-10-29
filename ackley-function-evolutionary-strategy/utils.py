@@ -1,4 +1,5 @@
 import numpy as np
+import random
 from parameters import params as CFG
 
 def generate_random_double_array(length, lower_bound = CFG["LWR_BND"], upper_bound = CFG["UPR_BND"]):
@@ -21,3 +22,9 @@ def population_worst_fitness(population):
 
 def gen_random_permutation(length):
   return list(map(lambda index : index - 1, np.random.permutation(length)))
+
+def generate_random_integer(lower_bound = 2, upper_bound = CFG["POP_SIZE"]):
+  return np.random.randint(low = lower_bound, high = upper_bound)
+
+def choose_k_from_array(array, k):
+  return random.sample(array, k)
