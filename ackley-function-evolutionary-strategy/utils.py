@@ -11,14 +11,25 @@ def normal_distribution(mean, standard_deviation, length = 1):
 def should_event_happen(probability):
   return np.random.rand() < probability
 
-def population_average_fitness(population):
+def pop_avg_fitness(population):
   return np.average(list(map(lambda ind: ind.fitness(), population)))
 
-def population_best_fitness(population):
+def pop_best_fitness(population):
   return np.min(list(map(lambda ind: ind.fitness(), population)))
 
-def population_worst_fitness(population):
+def pop_worst_fitness(population):
   return np.max(list(map(lambda ind: ind.fitness(), population)))
+
+def pop_std_fitness(population):
+  return np.std(list(map(lambda ind: ind.fitness(), population)))
+
+def pop_avg_mut_step(population):
+  avg = 0
+  if CFG["MUT_TYP"] == "UNCORRELATED_SINGLE":
+    avg = np.average(list(map(lambda ind: ind.sigma[0], population)))
+  elif CFG["MUT_TYP"] == "UNCORRELATED_MANY":
+    avg = np.average(list(map(lambda ind: np.average(ind.sigma), population)))
+  return avg
 
 def gen_random_permutation(length):
   return list(map(lambda index : index - 1, np.random.permutation(length)))

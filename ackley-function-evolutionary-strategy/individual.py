@@ -14,10 +14,10 @@ class Individual:
 
   def fitness(self, f = ackley_function):
     if (self._fitness is not None):
-      return self._fitness
+      return abs(self._fitness)
 
     self._fitness = f(self.fenotype)
-    return self._fitness
+    return abs(self._fitness)
 
   def mutate(self, mutation_type = CFG["MUT_TYP"]):
     self._fitness = None
