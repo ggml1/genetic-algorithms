@@ -1,0 +1,39 @@
+The algorithm ran for a total of 1223 iterations.
+The algorithm ran for a total of 65 iterations.
+The algorithm ran for a total of 79 iterations.
+The algorithm ran for a total of 222 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 176 iterations.
+The algorithm ran for a total of 31 iterations.
+The algorithm ran for a total of 34 iterations.
+The algorithm ran for a total of 992 iterations.
+The algorithm ran for a total of 40 iterations.
+The algorithm ran for a total of 632 iterations.
+The algorithm ran for a total of 2270 iterations.
+The algorithm ran for a total of 37 iterations.
+The algorithm ran for a total of 1067 iterations.
+The algorithm ran for a total of 888 iterations.
+The algorithm ran for a total of 49 iterations.
+The algorithm ran for a total of 1465 iterations.
+The algorithm ran for a total of 295 iterations.
+The algorithm ran for a total of 328 iterations.
+The algorithm ran for a total of 72 iterations.
+The algorithm ran for a total of 149 iterations.
+The algorithm ran for a total of 1972 iterations.
+The algorithm ran for a total of 505 iterations.
+The algorithm ran for a total of 95 iterations.
+The algorithm ran for a total of 402 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 615 iterations.
+The algorithm ran for a total of 1825 iterations.
+The algorithm ran for a total of 42 iterations.
+The algorithm ran for a total of 33 iterations.
+Iteration Values:
+[1223, 65, 79, 222, 9, 176, 31, 34, 992, 40, 632, 2270, 37, 1067, 888, 49, 1465, 295, 328, 72, 149, 1972, 505, 95, 402, 59, 615, 1825, 42, 33]
+Fitness Values:
+[-0.98, -2.38, -1.97, -0.98, -3.87, -0.98, -3.09, -3.03, -0.98, -2.65, -0.98, -0.98, -3.01, -0.98, -0.98, -2.92, -0.98, -0.98, -0.98, -2.15, -0.98, -0.98, -0.98, -0.99, -0.98, -2.5, -0.98, -0.98, -2.89, -2.62]
+Average iterations: 522.3666666666667
+Standard deviation of iterations: 650.4448601472334
+Average fitness: -1.691
+Standard deviation of fitness: 0.9371944559566399
+============================================

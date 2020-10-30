@@ -1,0 +1,480 @@
+With 10 population size:
+The algorithm ran for a total of 168 iterations.
+The algorithm ran for a total of 58 iterations.
+The algorithm ran for a total of 16 iterations.
+The algorithm ran for a total of 399 iterations.
+The algorithm ran for a total of 512 iterations.
+The algorithm ran for a total of 12 iterations.
+The algorithm ran for a total of 74 iterations.
+The algorithm ran for a total of 273 iterations.
+The algorithm ran for a total of 331 iterations.
+The algorithm ran for a total of 1418 iterations.
+The algorithm ran for a total of 10000 iterations.
+The algorithm ran for a total of 509 iterations.
+The algorithm ran for a total of 322 iterations.
+The algorithm ran for a total of 66 iterations.
+The algorithm ran for a total of 10000 iterations.
+The algorithm ran for a total of 10000 iterations.
+The algorithm ran for a total of 108 iterations.
+The algorithm ran for a total of 1285 iterations.
+The algorithm ran for a total of 10000 iterations.
+The algorithm ran for a total of 167 iterations.
+The algorithm ran for a total of 170 iterations.
+The algorithm ran for a total of 648 iterations.
+The algorithm ran for a total of 75 iterations.
+The algorithm ran for a total of 565 iterations.
+The algorithm ran for a total of 108 iterations.
+The algorithm ran for a total of 444 iterations.
+The algorithm ran for a total of 125 iterations.
+The algorithm ran for a total of 1196 iterations.
+The algorithm ran for a total of 491 iterations.
+The algorithm ran for a total of 125 iterations.
+Iteration Values:
+[168, 58, 16, 399, 512, 12, 74, 273, 331, 1418, 10000, 509, 322, 66, 10000, 10000, 108, 1285, 10000, 167, 170, 648, 75, 565, 108, 444, 125, 1196, 491, 125]
+Fitness Values:
+[-1.7, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9, -1, -0.9, -0.9, -0.9, -1, -1, -0.9, -0.9, -1, -0.9, -0.9, -0.9, -1.8, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9, -0.9]
+Average iterations: 1655.5
+Standard deviation of iterations: 3348.5782649583875
+Average fitness: -0.97
+Standard deviation of fitness: 0.21519838481639728
+============================================
+With 30 population size:
+The algorithm ran for a total of 41 iterations.
+The algorithm ran for a total of 182 iterations.
+The algorithm ran for a total of 10 iterations.
+The algorithm ran for a total of 27 iterations.
+The algorithm ran for a total of 28 iterations.
+The algorithm ran for a total of 602 iterations.
+The algorithm ran for a total of 557 iterations.
+The algorithm ran for a total of 37 iterations.
+The algorithm ran for a total of 65 iterations.
+The algorithm ran for a total of 1020 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 10 iterations.
+The algorithm ran for a total of 1822 iterations.
+The algorithm ran for a total of 454 iterations.
+The algorithm ran for a total of 116 iterations.
+The algorithm ran for a total of 241 iterations.
+The algorithm ran for a total of 479 iterations.
+The algorithm ran for a total of 115 iterations.
+The algorithm ran for a total of 100 iterations.
+The algorithm ran for a total of 48 iterations.
+The algorithm ran for a total of 226 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 93 iterations.
+The algorithm ran for a total of 661 iterations.
+The algorithm ran for a total of 71 iterations.
+The algorithm ran for a total of 101 iterations.
+The algorithm ran for a total of 544 iterations.
+The algorithm ran for a total of 84 iterations.
+The algorithm ran for a total of 813 iterations.
+The algorithm ran for a total of 109 iterations.
+Iteration Values:
+[41, 182, 10, 27, 28, 602, 557, 37, 65, 1020, 59, 10, 1822, 454, 116, 241, 479, 115, 100, 48, 226, 32, 93, 661, 71, 101, 544, 84, 813, 109]
+Fitness Values:
+[-1.3, -0.9666666666666667, -3.1333333333333333, -2.1, -1.4333333333333333, -0.9666666666666667, -0.9666666666666667, -1.1, -0.9666666666666667, -0.9666666666666667, -1.8333333333333333, -3.066666666666667, -0.9666666666666667, -0.9666666666666667, -1.2, -0.9666666666666667, -0.9666666666666667, -0.9666666666666667, -1.9333333333333333, -1.2, -0.9666666666666667, -2.1666666666666665, -0.9666666666666667, -0.9666666666666667, -0.9666666666666667, -1.0666666666666667, -0.9666666666666667, -0.9666666666666667, -0.9666666666666667, -0.9666666666666667]
+Average iterations: 291.56666666666666
+Standard deviation of iterations: 396.0744168438059
+Average fitness: -1.2977777777777777
+Standard deviation of fitness: 0.6071687535393969
+============================================
+With 50 population size:
+The algorithm ran for a total of 11 iterations.
+The algorithm ran for a total of 444 iterations.
+The algorithm ran for a total of 115 iterations.
+The algorithm ran for a total of 1268 iterations.
+The algorithm ran for a total of 6 iterations.
+The algorithm ran for a total of 109 iterations.
+The algorithm ran for a total of 20 iterations.
+The algorithm ran for a total of 282 iterations.
+The algorithm ran for a total of 35 iterations.
+The algorithm ran for a total of 83 iterations.
+The algorithm ran for a total of 98 iterations.
+The algorithm ran for a total of 105 iterations.
+The algorithm ran for a total of 55 iterations.
+The algorithm ran for a total of 108 iterations.
+The algorithm ran for a total of 19 iterations.
+The algorithm ran for a total of 53 iterations.
+The algorithm ran for a total of 264 iterations.
+The algorithm ran for a total of 138 iterations.
+The algorithm ran for a total of 48 iterations.
+The algorithm ran for a total of 97 iterations.
+The algorithm ran for a total of 2 iterations.
+The algorithm ran for a total of 187 iterations.
+The algorithm ran for a total of 76 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 142 iterations.
+The algorithm ran for a total of 132 iterations.
+The algorithm ran for a total of 115 iterations.
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 122 iterations.
+The algorithm ran for a total of 30 iterations.
+Iteration Values:
+[11, 444, 115, 1268, 6, 109, 20, 282, 35, 83, 98, 105, 55, 108, 19, 53, 264, 138, 48, 97, 2, 187, 76, 9, 142, 132, 115, 69, 122, 30]
+Fitness Values:
+[-3.48, -0.98, -0.98, -0.98, -3.4, -0.98, -3.26, -0.98, -2.38, -1.06, -1.38, -1.9, -1.48, -1.82, -2.68, -2.42, -0.98, -0.98, -1.92, -1.6, -4.5, -0.98, -0.98, -3.42, -0.98, -0.98, -0.98, -1.36, -0.98, -2.36]
+Average iterations: 141.4
+Standard deviation of iterations: 232.6438153650043
+Average fitness: -1.772
+Standard deviation of fitness: 1.0006839040686468
+============================================
+With 70 population size:
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 119 iterations.
+The algorithm ran for a total of 115 iterations.
+The algorithm ran for a total of 343 iterations.
+The algorithm ran for a total of 47 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 48 iterations.
+The algorithm ran for a total of 68 iterations.
+The algorithm ran for a total of 51 iterations.
+The algorithm ran for a total of 113 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 222 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 2649 iterations.
+The algorithm ran for a total of 196 iterations.
+The algorithm ran for a total of 67 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 1622 iterations.
+The algorithm ran for a total of 42 iterations.
+The algorithm ran for a total of 53 iterations.
+The algorithm ran for a total of 915 iterations.
+The algorithm ran for a total of 3398 iterations.
+The algorithm ran for a total of 666 iterations.
+The algorithm ran for a total of 82 iterations.
+The algorithm ran for a total of 4 iterations.
+The algorithm ran for a total of 83 iterations.
+The algorithm ran for a total of 1177 iterations.
+The algorithm ran for a total of 121 iterations.
+The algorithm ran for a total of 394 iterations.
+Iteration Values:
+[23, 119, 115, 343, 47, 24, 48, 68, 51, 113, 59, 222, 9, 23, 2649, 196, 67, 24, 1622, 42, 53, 915, 3398, 666, 82, 4, 83, 1177, 121, 394]
+Fitness Values:
+[-2.842857142857143, -1.6428571428571428, -1.1, -0.9857142857142858, -2.3714285714285714, -2.7857142857142856, -2.0285714285714285, -2.3285714285714287, -2.0428571428571427, -1.1571428571428573, -2.4571428571428573, -0.9857142857142858, -3.8285714285714287, -3.057142857142857, -0.9857142857142858, -0.9857142857142858, -2.142857142857143, -3.257142857142857, -0.9857142857142858, -2.6, -2.3714285714285714, -0.9857142857142858, -0.9857142857142858, -0.9857142857142858, -1.9142857142857144, -4.485714285714286, -1.957142857142857, -0.9857142857142858, -1.4428571428571428, -0.9857142857142858]
+Average iterations: 425.23333333333335
+Standard deviation of iterations: 807.1123360403468
+Average fitness: -1.9223809523809523
+Standard deviation of fitness: 0.9577028237240834
+============================================
+With 100 population size:
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 218 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 260 iterations.
+The algorithm ran for a total of 94 iterations.
+The algorithm ran for a total of 33 iterations.
+The algorithm ran for a total of 2 iterations.
+The algorithm ran for a total of 119 iterations.
+The algorithm ran for a total of 41 iterations.
+The algorithm ran for a total of 63 iterations.
+The algorithm ran for a total of 73 iterations.
+The algorithm ran for a total of 22 iterations.
+The algorithm ran for a total of 478 iterations.
+The algorithm ran for a total of 296 iterations.
+The algorithm ran for a total of 162 iterations.
+The algorithm ran for a total of 5 iterations.
+The algorithm ran for a total of 1260 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 19 iterations.
+The algorithm ran for a total of 19 iterations.
+The algorithm ran for a total of 63 iterations.
+The algorithm ran for a total of 106 iterations.
+The algorithm ran for a total of 199 iterations.
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 94 iterations.
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 13 iterations.
+The algorithm ran for a total of 141 iterations.
+Iteration Values:
+[23, 218, 61, 260, 94, 33, 2, 119, 41, 63, 73, 22, 478, 296, 162, 5, 1260, 59, 61, 61, 19, 19, 63, 106, 199, 69, 94, 69, 13, 141]
+Fitness Values:
+[-3.63, -1.39, -2.47, -0.99, -1.86, -2.69, -4.7, -1.6, -2.71, -2.36, -2.3, -3.63, -0.99, -0.99, -1.46, -4.26, -0.99, -2.62, -2.56, -2.61, -3.61, -3.75, -2.5, -1.29, -0.99, -2.35, -2.13, -2.41, -4.13, -1.69]
+Average iterations: 139.43333333333334
+Standard deviation of iterations: 235.36511377349274
+Average fitness: -2.3886666666666665
+Standard deviation of fitness: 1.0661459217371614
+============================================
+With 120 population size:
+The algorithm ran for a total of 14 iterations.
+The algorithm ran for a total of 272 iterations.
+The algorithm ran for a total of 22 iterations.
+The algorithm ran for a total of 35 iterations.
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 133 iterations.
+The algorithm ran for a total of 25 iterations.
+The algorithm ran for a total of 145 iterations.
+The algorithm ran for a total of 53 iterations.
+The algorithm ran for a total of 108 iterations.
+The algorithm ran for a total of 4 iterations.
+The algorithm ran for a total of 332 iterations.
+The algorithm ran for a total of 93 iterations.
+The algorithm ran for a total of 163 iterations.
+The algorithm ran for a total of 198 iterations.
+The algorithm ran for a total of 99 iterations.
+The algorithm ran for a total of 3 iterations.
+The algorithm ran for a total of 366 iterations.
+The algorithm ran for a total of 137 iterations.
+The algorithm ran for a total of 55 iterations.
+The algorithm ran for a total of 128 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 74 iterations.
+The algorithm ran for a total of 119 iterations.
+The algorithm ran for a total of 75 iterations.
+The algorithm ran for a total of 80 iterations.
+The algorithm ran for a total of 65 iterations.
+The algorithm ran for a total of 14 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 155 iterations.
+Iteration Values:
+[14, 272, 22, 35, 69, 133, 25, 145, 53, 108, 4, 332, 93, 163, 198, 99, 3, 366, 137, 55, 128, 32, 74, 119, 75, 80, 65, 14, 32, 155]
+Fitness Values:
+[-4.175, -1.5583333333333333, -3.5166666666666666, -2.975, -2.8333333333333335, -1.7583333333333333, -3.4833333333333334, -1.7083333333333333, -2.9583333333333335, -1.8, -4.325, -0.9916666666666667, -1.9833333333333334, -1.9416666666666667, -1.4833333333333334, -2.2416666666666667, -4.608333333333333, -0.9916666666666667, -1.8916666666666666, -2.7416666666666667, -2.15, -3.4583333333333335, -2.65, -2.15, -2.5833333333333335, -2.675, -2.925, -3.816666666666667, -3.4916666666666667, -1.425]
+Average iterations: 103.33333333333333
+Standard deviation of iterations: 91.5179776321847
+Average fitness: -2.576388888888889
+Standard deviation of fitness: 0.9727589514623157
+============================================
+With 150 population size:
+The algorithm ran for a total of 115 iterations.
+The algorithm ran for a total of 17 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 138 iterations.
+The algorithm ran for a total of 62 iterations.
+The algorithm ran for a total of 78 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 66 iterations.
+The algorithm ran for a total of 46 iterations.
+The algorithm ran for a total of 20 iterations.
+The algorithm ran for a total of 143 iterations.
+The algorithm ran for a total of 177 iterations.
+The algorithm ran for a total of 51 iterations.
+The algorithm ran for a total of 31 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 22 iterations.
+The algorithm ran for a total of 55 iterations.
+The algorithm ran for a total of 82 iterations.
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 6 iterations.
+The algorithm ran for a total of 35 iterations.
+The algorithm ran for a total of 7 iterations.
+The algorithm ran for a total of 213 iterations.
+The algorithm ran for a total of 97 iterations.
+The algorithm ran for a total of 21 iterations.
+The algorithm ran for a total of 122 iterations.
+The algorithm ran for a total of 93 iterations.
+The algorithm ran for a total of 442 iterations.
+The algorithm ran for a total of 11 iterations.
+The algorithm ran for a total of 83 iterations.
+Iteration Values:
+[115, 17, 24, 138, 62, 78, 9, 66, 46, 20, 143, 177, 51, 31, 9, 22, 55, 82, 23, 6, 35, 7, 213, 97, 21, 122, 93, 442, 11, 83]
+Fitness Values:
+[-2.3066666666666666, -4.253333333333333, -4.08, -2.26, -2.6933333333333334, -2.6466666666666665, -4.3533333333333335, -3.1666666666666665, -3.2666666666666666, -3.966666666666667, -2.08, -1.6266666666666667, -3.14, -3.546666666666667, -4.32, -3.84, -3.1066666666666665, -2.6466666666666665, -4.04, -4.5, -3.6266666666666665, -4.573333333333333, -1.7, -2.7066666666666666, -4.02, -2.3533333333333335, -2.7266666666666666, -0.9933333333333333, -4.16, -2.7133333333333334]
+Average iterations: 76.6
+Standard deviation of iterations: 87.61341418314655
+Average fitness: -3.1804444444444444
+Standard deviation of fitness: 0.9554039619572587
+============================================
+With 200 population size:
+The algorithm ran for a total of 3 iterations.
+The algorithm ran for a total of 116 iterations.
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 66 iterations.
+The algorithm ran for a total of 99 iterations.
+The algorithm ran for a total of 121 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 223 iterations.
+The algorithm ran for a total of 149 iterations.
+The algorithm ran for a total of 2 iterations.
+The algorithm ran for a total of 191 iterations.
+The algorithm ran for a total of 236 iterations.
+The algorithm ran for a total of 74 iterations.
+The algorithm ran for a total of 29 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 141 iterations.
+The algorithm ran for a total of 26 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 93 iterations.
+The algorithm ran for a total of 8 iterations.
+The algorithm ran for a total of 11 iterations.
+The algorithm ran for a total of 17 iterations.
+The algorithm ran for a total of 36 iterations.
+The algorithm ran for a total of 58 iterations.
+The algorithm ran for a total of 46 iterations.
+The algorithm ran for a total of 81 iterations.
+The algorithm ran for a total of 102 iterations.
+The algorithm ran for a total of 170 iterations.
+The algorithm ran for a total of 16 iterations.
+The algorithm ran for a total of 158 iterations.
+Iteration Values:
+[3, 116, 69, 66, 99, 121, 24, 223, 149, 2, 191, 236, 74, 29, 61, 141, 26, 32, 93, 8, 11, 17, 36, 58, 46, 81, 102, 170, 16, 158]
+Fitness Values:
+[-4.985, -2.685, -3.41, -3.225, -2.975, -2.72, -4.095, -1.66, -2.395, -4.765, -2.22, -1.96, -3, -3.755, -3.2, -2.335, -3.81, -3.875, -2.755, -4.545, -4.32, -4.42, -3.84, -3.3, -3.58, -2.795, -2.85, -2.245, -4.26, -2.33]
+Average iterations: 81.93333333333334
+Standard deviation of iterations: 66.67519485682364
+Average fitness: -3.277
+Standard deviation of fitness: 0.8844261728219116
+============================================
+With 250 population size:
+The algorithm ran for a total of 42 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 202 iterations.
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 56 iterations.
+The algorithm ran for a total of 163 iterations.
+The algorithm ran for a total of 183 iterations.
+The algorithm ran for a total of 140 iterations.
+The algorithm ran for a total of 234 iterations.
+The algorithm ran for a total of 25 iterations.
+The algorithm ran for a total of 134 iterations.
+The algorithm ran for a total of 133 iterations.
+The algorithm ran for a total of 265 iterations.
+The algorithm ran for a total of 87 iterations.
+The algorithm ran for a total of 106 iterations.
+The algorithm ran for a total of 418 iterations.
+The algorithm ran for a total of 17 iterations.
+The algorithm ran for a total of 132 iterations.
+The algorithm ran for a total of 54 iterations.
+The algorithm ran for a total of 4 iterations.
+The algorithm ran for a total of 66 iterations.
+The algorithm ran for a total of 325 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 18 iterations.
+The algorithm ran for a total of 18 iterations.
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 207 iterations.
+The algorithm ran for a total of 75 iterations.
+The algorithm ran for a total of 32 iterations.
+Iteration Values:
+[42, 59, 202, 23, 56, 163, 183, 140, 234, 25, 134, 133, 265, 87, 106, 418, 17, 132, 54, 4, 66, 325, 59, 24, 18, 18, 23, 207, 75, 32]
+Fitness Values:
+[-3.628, -3.452, -2.184, -4.06, -3.524, -2.556, -2.38, -2.568, -2.048, -3.98, -2.692, -2.388, -1.788, -3.212, -3.076, -1.456, -4.344, -2.836, -3.54, -4.636, -3.284, -1.696, -3.536, -4.2, -4.24, -4.388, -4.188, -2.164, -3.384, -3.956]
+Average iterations: 110.8
+Standard deviation of iterations: 101.91456868546727
+Average fitness: -3.179466666666667
+Standard deviation of fitness: 0.9030564091799136
+============================================
+With 300 population size:
+The algorithm ran for a total of 4 iterations.
+The algorithm ran for a total of 9 iterations.
+The algorithm ran for a total of 294 iterations.
+The algorithm ran for a total of 49 iterations.
+The algorithm ran for a total of 54 iterations.
+The algorithm ran for a total of 37 iterations.
+The algorithm ran for a total of 40 iterations.
+The algorithm ran for a total of 181 iterations.
+The algorithm ran for a total of 35 iterations.
+The algorithm ran for a total of 28 iterations.
+The algorithm ran for a total of 134 iterations.
+The algorithm ran for a total of 171 iterations.
+The algorithm ran for a total of 116 iterations.
+The algorithm ran for a total of 167 iterations.
+The algorithm ran for a total of 288 iterations.
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 10 iterations.
+The algorithm ran for a total of 164 iterations.
+The algorithm ran for a total of 53 iterations.
+The algorithm ran for a total of 8 iterations.
+The algorithm ran for a total of 96 iterations.
+The algorithm ran for a total of 23 iterations.
+The algorithm ran for a total of 143 iterations.
+The algorithm ran for a total of 227 iterations.
+The algorithm ran for a total of 296 iterations.
+The algorithm ran for a total of 20 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 83 iterations.
+The algorithm ran for a total of 52 iterations.
+The algorithm ran for a total of 54 iterations.
+Iteration Values:
+[4, 9, 294, 49, 54, 37, 40, 181, 35, 28, 134, 171, 116, 167, 288, 24, 10, 164, 53, 8, 96, 23, 143, 227, 296, 20, 32, 83, 52, 54]
+Fitness Values:
+[-4.506666666666667, -4.616666666666666, -2.1733333333333333, -3.95, -3.64, -3.57, -4.023333333333333, -2.6233333333333335, -4.08, -4.053333333333334, -2.96, -2.703333333333333, -3.0533333333333332, -2.5766666666666667, -2.16, -4.303333333333334, -4.653333333333333, -2.8266666666666667, -3.58, -4.52, -3.31, -4.2, -2.6966666666666668, -2.243333333333333, -2.1666666666666665, -4.286666666666667, -3.8, -3.3966666666666665, -3.75, -3.6333333333333333]
+Average iterations: 96.4
+Standard deviation of iterations: 90.2110934381706
+Average fitness: -3.4685555555555556
+Standard deviation of fitness: 0.7982863270941967
+============================================
+With 400 population size:
+The algorithm ran for a total of 69 iterations.
+The algorithm ran for a total of 84 iterations.
+The algorithm ran for a total of 179 iterations.
+The algorithm ran for a total of 135 iterations.
+The algorithm ran for a total of 65 iterations.
+The algorithm ran for a total of 88 iterations.
+The algorithm ran for a total of 20 iterations.
+The algorithm ran for a total of 15 iterations.
+The algorithm ran for a total of 92 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 33 iterations.
+The algorithm ran for a total of 131 iterations.
+The algorithm ran for a total of 66 iterations.
+The algorithm ran for a total of 41 iterations.
+The algorithm ran for a total of 164 iterations.
+The algorithm ran for a total of 123 iterations.
+The algorithm ran for a total of 80 iterations.
+The algorithm ran for a total of 260 iterations.
+The algorithm ran for a total of 124 iterations.
+The algorithm ran for a total of 54 iterations.
+The algorithm ran for a total of 111 iterations.
+The algorithm ran for a total of 226 iterations.
+The algorithm ran for a total of 111 iterations.
+The algorithm ran for a total of 63 iterations.
+The algorithm ran for a total of 147 iterations.
+The algorithm ran for a total of 375 iterations.
+The algorithm ran for a total of 195 iterations.
+The algorithm ran for a total of 21 iterations.
+The algorithm ran for a total of 199 iterations.
+The algorithm ran for a total of 86 iterations.
+Iteration Values:
+[69, 84, 179, 135, 65, 88, 20, 15, 92, 61, 33, 131, 66, 41, 164, 123, 80, 260, 124, 54, 111, 226, 111, 63, 147, 375, 195, 21, 199, 86]
+Fitness Values:
+[-3.7575, -3.7425, -2.83, -2.9325, -3.86, -3.69, -4.365, -4.6275, -3.4825, -3.7275, -4.1925, -3.225, -3.83, -4.19, -3.0225, -3.3125, -3.595, -2.58, -3.175, -4.1075, -3.43, -2.54, -3.2825, -3.9, -3.08, -1.98, -2.6625, -4.2425, -2.72, -3.4125]
+Average iterations: 113.93333333333334
+Standard deviation of iterations: 79.53005648845894
+Average fitness: -3.4498333333333333
+Standard deviation of fitness: 0.62368860119804
+============================================
+With 500 population size:
+The algorithm ran for a total of 24 iterations.
+The algorithm ran for a total of 101 iterations.
+The algorithm ran for a total of 136 iterations.
+The algorithm ran for a total of 48 iterations.
+The algorithm ran for a total of 55 iterations.
+The algorithm ran for a total of 109 iterations.
+The algorithm ran for a total of 238 iterations.
+The algorithm ran for a total of 333 iterations.
+The algorithm ran for a total of 59 iterations.
+The algorithm ran for a total of 64 iterations.
+The algorithm ran for a total of 87 iterations.
+The algorithm ran for a total of 161 iterations.
+The algorithm ran for a total of 34 iterations.
+The algorithm ran for a total of 100 iterations.
+The algorithm ran for a total of 152 iterations.
+The algorithm ran for a total of 70 iterations.
+The algorithm ran for a total of 150 iterations.
+The algorithm ran for a total of 47 iterations.
+The algorithm ran for a total of 62 iterations.
+The algorithm ran for a total of 285 iterations.
+The algorithm ran for a total of 137 iterations.
+The algorithm ran for a total of 189 iterations.
+The algorithm ran for a total of 118 iterations.
+The algorithm ran for a total of 57 iterations.
+The algorithm ran for a total of 238 iterations.
+The algorithm ran for a total of 150 iterations.
+The algorithm ran for a total of 39 iterations.
+The algorithm ran for a total of 14 iterations.
+The algorithm ran for a total of 52 iterations.
+The algorithm ran for a total of 49 iterations.
+Iteration Values:
+[24, 101, 136, 48, 55, 109, 238, 333, 59, 64, 87, 161, 34, 100, 152, 70, 150, 47, 62, 285, 137, 189, 118, 57, 238, 150, 39, 14, 52, 49]
+Fitness Values:
+[-4.406, -3.74, -3.376, -4.11, -3.988, -3.558, -2.958, -2.636, -3.926, -4.022, -3.65, -3.278, -4.086, -3.516, -3.294, -3.78, -3.402, -4.316, -3.786, -2.628, -3.382, -3.156, -3.536, -3.882, -2.742, -3.138, -4.358, -4.772, -4.176, -4.272]
+Average iterations: 111.93333333333334
+Standard deviation of iterations: 80.0383241537036
+Average fitness: -3.662333333333333
+Standard deviation of fitness: 0.5463731409901134
+============================================

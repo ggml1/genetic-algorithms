@@ -1,0 +1,39 @@
+The algorithm ran for a total of 237 iterations.
+The algorithm ran for a total of 16 iterations.
+The algorithm ran for a total of 121 iterations.
+The algorithm ran for a total of 46 iterations.
+The algorithm ran for a total of 144 iterations.
+The algorithm ran for a total of 85 iterations.
+The algorithm ran for a total of 938 iterations.
+The algorithm ran for a total of 26 iterations.
+The algorithm ran for a total of 2656 iterations.
+The algorithm ran for a total of 155 iterations.
+The algorithm ran for a total of 31 iterations.
+The algorithm ran for a total of 168 iterations.
+The algorithm ran for a total of 3 iterations.
+The algorithm ran for a total of 40 iterations.
+The algorithm ran for a total of 405 iterations.
+The algorithm ran for a total of 675 iterations.
+The algorithm ran for a total of 13 iterations.
+The algorithm ran for a total of 86 iterations.
+The algorithm ran for a total of 132 iterations.
+The algorithm ran for a total of 144 iterations.
+The algorithm ran for a total of 34 iterations.
+The algorithm ran for a total of 32 iterations.
+The algorithm ran for a total of 78 iterations.
+The algorithm ran for a total of 141 iterations.
+The algorithm ran for a total of 46 iterations.
+The algorithm ran for a total of 61 iterations.
+The algorithm ran for a total of 53 iterations.
+The algorithm ran for a total of 372 iterations.
+The algorithm ran for a total of 44 iterations.
+The algorithm ran for a total of 54 iterations.
+Iteration Values:
+[237, 16, 121, 46, 144, 85, 938, 26, 2656, 155, 31, 168, 3, 40, 405, 675, 13, 86, 132, 144, 34, 32, 78, 141, 46, 61, 53, 372, 44, 54]
+Fitness Values:
+[-0.99, -3.88, -1.83, -2.8, -1.83, -2.25, -0.99, -3.38, -0.99, -0.99, -3.03, -1.2, -4.71, -3.01, -0.99, -0.99, -4.25, -2.5, -1.45, -1.55, -3.11, -3.04, -1.88, -1.25, -3.02, -2.47, -2.88, -0.99, -2.82, -2.38]
+Average iterations: 234.53333333333333
+Standard deviation of iterations: 501.24133724276925
+Average fitness: -2.248333333333333
+Standard deviation of fitness: 1.0686023205759145
+============================================
