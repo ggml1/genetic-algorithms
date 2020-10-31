@@ -2,11 +2,12 @@ from individual import Individual
 from utils import should_event_happen, gen_random_permutation, generate_random_integer, choose_k_from_array
 from recombination import recombination
 from parameters import params as CFG
+from random import shuffle
 
 NUMBER_OF_PARENTS = 2
 
 def generate_population(population_size):
-  return [ Individual() ] * population_size
+  return [ Individual() for i in range(population_size) ]
 
 def select_strongest_individual(population):
   return sorted(population)[-1:] 
@@ -37,8 +38,8 @@ def select_parents(population, parent_selection_strategy = CFG["PRNT_SEL"]):
     raise Exception("[ERR - PARENT_SELECTION]: Unknown parent selection strategy")
 
 def generate_offspring(parents):
-  child_fenotype = recombination(parents)
-  child = Individual(fenotype = child_fenotype)
+  child_fenotype, child_sigma = recombination(parents)
+  child = Individual(fenotype = child_fenotype, sigma = child_sigma)
   
   if (should_event_happen(CFG["MUT_PRB"])):
     child.mutate()
@@ -53,5 +54,14 @@ def kill_suckers(population, children, population_size, survival_strategy = CFG[
     # Rank all Individuals (parents + children) and Kills the weakest among them,
     # fitness-wise.
     return sorted(population + children)[-population_size:]
+  elif survival_strategy == "BALANCED":
+    assert(type(population) == type(children) and type(population) == list)
+    s = sorted(population + children)
+    half = population_size // 2
+    best = 25
+    worse = 5
+    pop = s[:worse] + s[-best:]
+    shuffle(pop)
+    return pop
   else:
     raise Exception(f"[ERR - SURVIVORS SELECTION] Invalid strategy {survival_strategy}")

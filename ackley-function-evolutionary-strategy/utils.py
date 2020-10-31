@@ -3,10 +3,10 @@ import random
 from parameters import params as CFG
 
 def generate_random_double_array(length, lower_bound = CFG["LWR_BND"], upper_bound = CFG["UPR_BND"]):
-  return np.random.uniform(low = lower_bound, high = upper_bound, size = (length,))
+  return np.random.uniform(low = lower_bound, high = upper_bound, size = (length,)).tolist()
 
 def normal_distribution(mean, standard_deviation, length = 1):
-  return np.random.normal(loc = mean, scale = standard_deviation, size = length)
+  return np.random.normal(loc = mean, scale = standard_deviation, size = length)[0]
 
 def should_event_happen(probability):
   return np.random.rand() < probability

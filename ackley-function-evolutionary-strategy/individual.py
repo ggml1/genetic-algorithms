@@ -1,12 +1,15 @@
 from ackley import ackley_function
-from utils import generate_random_double_array
+from utils import generate_random_double_array, normal_distribution
 from mutate import uncorrelated_mutation, uncorrelated_mutation_n_steps
 from parameters import params as CFG
 
 class Individual:
-  def __init__(self, fenotype = None, sigma = [CFG["MUT_STP"]] * CFG["ACK_N"], length = CFG["ACK_N"]):
+  def __init__(self, fenotype = None, sigma = None, length = CFG["ACK_N"]):
     if (fenotype is None):
       fenotype = generate_random_double_array(length)
+
+    if (sigma is None):
+      sigma = [ CFG["MUT_STP"] for i in range(length) ]
     
     self.fenotype = fenotype
     self.sigma = sigma

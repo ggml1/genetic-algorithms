@@ -26,12 +26,13 @@ def uncorrelated_mutation(fenotype, sigma):
 
 
 def uncorrelated_mutation_n_steps(fenotype, sigmas):
+  thao_1 = learning_rate_thao("tao_line")
+  thao_2 = learning_rate_thao("tao_n_steps")
   for i in range(len(sigmas)):
-    thao_1 = learning_rate_thao("tao_line")
-    thao_2 = learning_rate_thao("tao_n_steps")
     nd_1 = normal_distribution(0, 1)
     nd_2 = normal_distribution(0, 1)
-    sigmas[i] = sigmas[i] * exp(thao_1 * nd_1 + thao_2 * nd_2)
+    expr = thao_1 * nd_1 + thao_2 * nd_2
+    sigmas[i] = sigmas[i] * exp(expr)
     if sigmas[i] < CFG["EPS_ZRO"]:
       sigmas[i] = CFG["EPS_ZRO"]
 
